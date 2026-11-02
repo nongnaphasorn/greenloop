@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://localhost:5173/api/admin/reports/monthly?month=10&year=2026
+method: GET
+queryParams:
+  month: "10"
+  year: "2026"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0ruj}}"
+order: 1793286365465

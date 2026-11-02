@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:5173/api/auth/login
+method: POST
+body:
+  type: json
+  content: '{ "email": "admin@greenloop.demo", "password": "admin123" }'
+order: 1793269715250
